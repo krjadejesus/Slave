@@ -14,3 +14,12 @@ if (num1 == num2) {
 } else {
 	alert('Num1 is greater than Num2');
 }
+
+var name1 = 'King';
+var name2 = 'De Jesus';
+
+if (name1 == 'King' && name2 == 'De Jesus') {
+	alert('Hello, King!');
+} else {
+	alert('Hello, stranger!');
+}

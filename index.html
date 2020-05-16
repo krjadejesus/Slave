@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-</head>
-<body>
+	<title>Sample with JS</title>
 	<script type="text/javascript">
+		var car = {
+			make: 'Honda',
+			type: 'Sedan',
+			color: 'Black',
+			isTurnedOn: false,
+			numberOfWheels: 4,
+			seats: ['seat1','seat2','seat3','seat4'
+			],
+			turnOn: function () {
+				this.isTurnedOn = true;
+			}
+		};
 		console.log("Sample Text through JS line");
 	</script>
+</head>
+<body>
 	<p>Sample Text</p>
 </body>
 </html>

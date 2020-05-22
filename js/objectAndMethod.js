@@ -15,6 +15,9 @@ var car = {
 		} else {
 			this.isTurnedOn = false;
 		}
+	},
+	fly: function () {
+		alert('This is a sample message!');
 	}
 };
 console.log("Sample Text through JS line");
